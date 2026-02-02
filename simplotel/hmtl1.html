@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>simplotel</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #eef7fb;
+    }
+
+    
+    nav {
+      background-color: #8c8c8c;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    nav a.active {
+      color: yellow;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    
+    .image-box {
+      flex: 1;
+    }
+
+    .image-box img {
+      width:500px;
+      height: 600px;
+      object-fit: cover;
+    }
+
+    
+    .orange-box {
+      flex: 1;
+      background-color: #ff8656;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+    .card {
+      background-color: #8c8c8c;
+      color: white;
+      padding: 20px;
+      width: 220px;
+      border-radius: 4px;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+ 
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">Dining</a>
+    <a href="#"class="active">Spa</a>
+    <a href="#">Rooms</a>
+    <a href="#"class="active">Contact us</a>
+  </nav>
+
+  
+  <div class="container">
+
+    <div class="image-box">
+            <img src="https://img.freepik.com/free-photo/beautiful-lake-mountains_395237-44.jpg?semt=ais_hybrid&w=740&q=80" >
+      
+    </div>
+
+    <div class="image-box">
+            <img src="https://plus.unsplash.com/premium_photo-1688645554172-d3aef5f837ce?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwbW91bnRhaW58ZW58MHx8MHx8fDA%3D">
+      
+    </div>
+
+    <div class="orange-box">
+      <div class="card">
+        <h3>Header</h3>
+        <p>lorem ipsum lorem ipsum lorem ipsum</p>
+        <button>Click</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
